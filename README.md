@@ -31,3 +31,6 @@ This is my **portfolio repository**, where I'll be showcasing my skills and proj
 - **GitHub:** [https://github.com/sabbir-ahmed3]
 - **LinkedIn:** [Coming Soon]
 - **Email:** [Coming Soon]
+
+![1](https://github.com/user-attachments/assets/5a5a3fd6-89cc-4dd8-80a8-2d98baeef862)
+
