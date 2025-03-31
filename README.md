@@ -32,5 +32,8 @@ This is my **portfolio repository**, where I'll be showcasing my skills and proj
 - **LinkedIn:** [Coming Soon]
 - **Email:** [Coming Soon]
 
-![1](https://github.com/user-attachments/assets/5a5a3fd6-89cc-4dd8-80a8-2d98baeef862)
+
+![2](https://github.com/user-attachments/assets/087145ce-71d1-4db1-af92-37ac6a8295b4)
+
+
 
