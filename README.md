@@ -33,7 +33,14 @@ This is my **portfolio repository**, where I'll be showcasing my skills and proj
 - **Email:** [Coming Soon]
 
 
+
+![1](https://github.com/user-attachments/assets/0ea582e6-82a6-4d6c-9639-504aac2b0fe4)
+
 ![2](https://github.com/user-attachments/assets/087145ce-71d1-4db1-af92-37ac6a8295b4)
+
+![3](https://github.com/user-attachments/assets/d0f585df-28d0-4985-a3e2-8c823d185a19)
+![4](https://github.com/user-attachments/assets/5e939001-95dd-4b42-b5c1-955dc3a4d860)
+![5](https://github.com/user-attachments/assets/36f8b153-a726-4754-b6ef-a549cab2919c)
 
 
 
