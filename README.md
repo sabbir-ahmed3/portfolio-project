@@ -42,5 +42,8 @@ This is my **portfolio repository**, where I'll be showcasing my skills and proj
 ![4](https://github.com/user-attachments/assets/5e939001-95dd-4b42-b5c1-955dc3a4d860)
 ![5](https://github.com/user-attachments/assets/36f8b153-a726-4754-b6ef-a549cab2919c)
 
+Added Logo
+![CyberNexus Logo](https://github.com/sabbir-ahmed3/portfolio-project/blob/main/ahmed%20logo.png)
+
 
 
