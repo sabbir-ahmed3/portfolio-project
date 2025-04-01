@@ -45,5 +45,10 @@ This is my **portfolio repository**, where I'll be showcasing my skills and proj
 Added Logo
 ![CyberNexus Logo](https://github.com/sabbir-ahmed3/portfolio-project/blob/main/ahmed%20logo.png)
 
+added wireframe
+## Project Wireframe  
+![CyberNexus Wireframe](wireframe.png.png)
+
+
 
 
