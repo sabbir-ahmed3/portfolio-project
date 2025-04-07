@@ -199,7 +199,7 @@ git push origin main
     <h2>Contact Me</h2>
     <p>If you're interested in working together, have questions, or just want to connect, feel free to reach out!</p>
     <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:sabbirman986@gmail.com" target="_blank">your.email@example.com</a></p>  
+        <p><strong>Email:</strong> <a href="mailto:sabbirman986@gmail.com" target="_blank">sabbirman986@gmail.com</a></p>  
         <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/sabbir-ahmed3" target="_blank">github.com/sabbir-ahmed3</a></p>
     </div>
