@@ -50,6 +50,175 @@ added wireframe
 ![CyberNexus Wireframe](wireframe.png.png)
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberNexus - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="ahmed logo.png" alt="CyberNexus Logo" class="logo">
+        <h1>Welcome to CyberNexus</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>About CyberNexus</h2>
+        <p>CyberNexus is dedicated to cybersecurity, innovation, and knowledge sharing. Stay updated with the latest in the field!</p>
+    </div>
+
+</body>
+</html>
+
+
+git add index.html
+git commit -m "Added homepage with header and navigation"
+git push origin main
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberNexus - Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e1e2f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #2c2c3c;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 17px;
+            padding: 8px 15px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #3e3e5e;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #1e1e2f;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e2f;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="ahmed logo.png" alt="CyberNexus Logo" class="logo" />
+        <h1>Welcome to CyberNexus</h1>
+        <p>Cybersecurity | Innovation | Knowledge Sharing</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>About CyberNexus</h2>
+        <p>CyberNexus is a hub of cybersecurity enthusiasts and professionals. We focus on sharing resources, learning through collaboration, and staying ahead of digital threats. Join us to explore ethical hacking, network defense, and the latest in cyber tech.</p>
+    </div>
+
+    <footer>
+        &copy; 2025 CyberNexus. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+
+
 <div class="contact-section">
     <h2>Contact Me</h2>
     <p>If you're interested in working together, have questions, or just want to connect, feel free to reach out!</p>
