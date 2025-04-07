@@ -125,7 +125,7 @@ git push origin main
             margin-bottom: 10px;
         }
 
-  nav {            background-color: #2c2c3c;
+   nav {            background-color: #2c2c3c;
             display: flex;
             justify-content: center;
             padding: 10px 0;
@@ -199,9 +199,9 @@ git push origin main
     <h2>Contact Me</h2>
     <p>If you're interested in working together, have questions, or just want to connect, feel free to reach out!</p>
     <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">sabbirman986@gmail.com</a></p>
         <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/sabbir-ahmed3</a></p>
     </div>
 </div>
 
