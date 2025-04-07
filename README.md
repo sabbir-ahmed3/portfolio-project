@@ -91,23 +91,7 @@ added wireframe
 </head>
 <body>
 
-    <header>
-        <img src="ahmed logo.png" alt="CyberNexus Logo" class="logo">
-        <h1>Welcome to CyberNexus</h1>
-    </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <div class="container">
-        <h2>About CyberNexus</h2>
-        <p>CyberNexus is dedicated to cybersecurity, innovation, and knowledge sharing. Stay updated with the latest in the field!</p>
-    </div>
-
+    
 </body>
 </html>
 
@@ -130,27 +114,23 @@ git push origin main
             background-color: #f9f9f9;
             color: #333;
         }
-
-        header {
+       header {
             background-color: #1e1e2f;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
-
         .logo {
             width: 120px;
             margin-bottom: 10px;
         }
 
-        nav {
-            background-color: #2c2c3c;
+  nav {            background-color: #2c2c3c;
             display: flex;
             justify-content: center;
             padding: 10px 0;
         }
-
-        nav a {
+      nav a {
             color: white;
             text-decoration: none;
             margin: 0 20px;
@@ -158,29 +138,24 @@ git push origin main
             padding: 8px 15px;
             transition: background 0.3s;
         }
-
         nav a:hover {
             background-color: #3e3e5e;
             border-radius: 5px;
         }
-
         .container {
             max-width: 900px;
             margin: 40px auto;
             padding: 0 20px;
             text-align: center;
         }
-
-        h2 {
+ h2 {
             color: #1e1e2f;
         }
-
         p {
             font-size: 18px;
             line-height: 1.6;
             color: #555;
         }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -192,25 +167,26 @@ git push origin main
 </head>
 <body>
 
-    <header>
+
+   <header>
         <img src="ahmed logo.png" alt="CyberNexus Logo" class="logo" />
         <h1>Welcome to CyberNexus</h1>
         <p>Cybersecurity | Innovation | Knowledge Sharing</p>
     </header>
 
-    <nav>
+   <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Projects</a>
         <a href="#">Contact</a>
     </nav>
 
-    <div class="container">
+   <div class="container">
         <h2>About CyberNexus</h2>
         <p>CyberNexus is a hub of cybersecurity enthusiasts and professionals. We focus on sharing resources, learning through collaboration, and staying ahead of digital threats. Join us to explore ethical hacking, network defense, and the latest in cyber tech.</p>
     </div>
 
-    <footer>
+  <footer>
         &copy; 2025 CyberNexus. All rights reserved.
     </footer>
 
