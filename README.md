@@ -50,5 +50,16 @@ added wireframe
 ![CyberNexus Wireframe](wireframe.png.png)
 
 
+<div class="contact-section">
+    <h2>Contact Me</h2>
+    <p>If you're interested in working together, have questions, or just want to connect, feel free to reach out!</p>
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+</div>
+
+
 
 
