@@ -51,76 +51,7 @@ added wireframe
 
 
 <
-git add index.html
-git commit -m "Added homepage with header and navigation"
-git push origin main
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberNexus - Home</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-       header {
-            background-color: #1e1e2f;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .logo {
-            width: 120px;
-            margin-bottom: 10px;
-        }
-
-   nav {            background-color: #2c2c3c;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-        }
-      nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 17px;
-            padding: 8px 15px;
-            transition: background 0.3s;
-        }
-        nav a:hover {
-            background-color: #3e3e5e;
-            border-radius: 5px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-            text-align: center;
-        }
- h2 {
-            color: #1e1e2f;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #555;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #1e1e2f;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
-</head>
-<body>
 
 
    <header>
