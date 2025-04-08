@@ -50,52 +50,7 @@ added wireframe
 ![CyberNexus Wireframe](wireframe.png.png)
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberNexus - Home</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #222;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        nav {
-            background: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        .container {
-            padding: 20px;
-            text-align: center;
-        }
-        .logo {
-            width: 150px;
-        }
-    </style>
-</head>
-<body>
-
-    
-</body>
-</html>
-
-
+<
 git add index.html
 git commit -m "Added homepage with header and navigation"
 git push origin main
