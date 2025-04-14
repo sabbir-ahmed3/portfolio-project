@@ -1,0 +1,79 @@
+
+/* --- Global Styles --- */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("background.jpg"); /* background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+   }
+      
+  
+  /* --- Header Section --- */
+  header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* --- Navigation Bar --- */
+  nav {
+    background-color: #2c2c3c;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 25px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #3e3e5e;
+  }
+  
+  /* --- Main Content --- */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #1616a0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* --- Footer --- */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e2f;
+    color: white;
+    margin-top: 40px;
+  }
+  
