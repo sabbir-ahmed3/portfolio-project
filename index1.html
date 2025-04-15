@@ -1,44 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <title>Your Page Title</title>
-      <link rel="stylesheet" href="style.css"> <!-- This links your CSS -->
-  </head>
-  <body>
-      <!-- Your content goes here -->
-  </body>
-  </html>
-  
+  <meta charset="UTF-8">
+  <title>CyberNexus</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="Logo" class="logo" />
-    <h1>Welcome to CyberNexus</h1>
-    <p>Cybersecurity | Innovation | Knowledge Sharing</p>
-  </header>
-
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 
-  <div class="container">
-    <h2>About CyberNexus</h2>
-    <p>
-      CyberNexus is a hub of cybersecurity enthusiasts and professionals.
-      We focus on sharing resources, learning through collaboration, and
-      staying ahead of digital threats. Join us to explore ethical hacking,
-      network defense, and the latest in cyber tech.
-    </p>
-  </div>
+  <section id="home" data-aos="fade-up" style="height: 100vh;">
+    <h1>Welcome to CyberNexus</h1>
+  </section>
+
+  <section id="about" data-aos="zoom-in" style="height: 100vh;">
+    <h2>About Us</h2>
+    <p>We focus on cybersecurity innovation and learning together!</p>
+  </section>
+
+  <section id="projects" data-aos="fade-right" style="height: 100vh;">
+    <h2>Our Projects</h2>
+  </section>
+
+  <section id="contact" data-aos="flip-left" style="height: 100vh;">
+    <h2>Contact Us</h2>
+  </section>
 
   <footer>
-    &copy; 2025 CyberNexus. All rights reserved.
+    <p>© 2025 CyberNexus. All rights reserved.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
+
+
+<img src="logo.png" data-aos="fade-down">
+<button data-aos="zoom-out">Click Me</button>
+
