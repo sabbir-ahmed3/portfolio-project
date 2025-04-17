@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" href="style copy 2.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #00f7ff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(5px);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#top" class="logo-link">
+      <img src="logo.png" alt="My Logo" class="logo" />
+    </a>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2 class="big-heading">✨ Beautiful About Me ✨</h2>
+    <p class="about-description">
+      I'm a passionate and creative web developer who loves turning ideas into stunning digital experiences. 
+      My goal is to blend beauty with functionality in every project I touch.
+    </p>
+  </section>
+
+  <section id="projects" data-aos="zoom-in" data-aos-delay="200">
+    <h2>My Projects</h2>
+    <p>Here are a few cool things I’ve built using HTML, CSS, JavaScript, and more!</p>
+  </section>
+
+  <section id="contact" data-aos="fade-up" data-aos-delay="400">
+    <h2>Contact Me</h2>
+    <p>Email me at: <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu" style="color: #00f7ff;">sabbir.ahmed3@live.lagcc.cuny.edu</a></p>
+  </section>
+
+  <!-- AOS Animation Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
