@@ -85,6 +85,34 @@
     ul.skills li {
       margin-bottom: 10px;
     }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .project-item {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      border: 1px solid #00f7ff;
+    }
+
+    .project-item a {
+      color: #00f7ff;
+      text-decoration: underline;
+    }
+
+    #contact a {
+      color: #00f7ff;
+    }
   </style>
 </head>
 <body>
@@ -98,6 +126,7 @@
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+      <a href="calculator.html" target="_blank">Calculator</a> <!-- Added Calculator Link -->
     </nav>
   </header>
 
@@ -117,8 +146,8 @@
     </ul>
   </section>
 
-   <!-- ======= Projects Section ======= -->
-   <section id="projects" data-aos="zoom-in" data-aos-delay="200">
+  <!-- ======= Projects Section ======= -->
+  <section id="projects" data-aos="zoom-in" data-aos-delay="200">
     <h2>My Projects</h2>
     <div class="project-list">
       <div class="project-item">
@@ -129,7 +158,7 @@
       <div class="project-item">
         <h3>🧮 Calculator</h3>
         <p>A basic calculator built using HTML, CSS, and JavaScript.</p>
-        <a href="#" target="_blank">View Project</a>
+        <a href="calculator.html" target="_blank">View Project</a> <!-- Fixed Calculator Link -->
       </div>
       <div class="project-item">
         <h3>📝 To-Do List App</h3>
@@ -139,19 +168,16 @@
     </div>
   </section>
 
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" data-aos="fade-up" data-aos-delay="400">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu">sabbir.ahmed3@live.lagcc.cuny.edu</a></p>
+  </section>
+
   <!-- ======= Footer ======= -->
   <footer>
     <p>&copy; 2025 Ahmed. All rights reserved.</p>
   </footer>
-
-</body>
-</html>
-
-
-  <section id="contact" data-aos="fade-up" data-aos-delay="400">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu" style="color: #00f7ff;">sabbir.ahmed3@live.lagcc.cuny.edu</a></p>
-  </section>
 
   <!-- AOS Animation Scripts -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -161,7 +187,6 @@
       once: true,
     });
   </script>
+
 </body>
 </html>
-
-
