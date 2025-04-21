@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mobile Calculator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mobile-Style Calculator</title>
   <style>
     body {
-      background-color: #e0e0e0;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("backgroundcal.jpg"); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
     }
 
     .calculator {
@@ -78,43 +83,60 @@
     <input type="text" id="result" readonly>
     <div class="buttons">
       <button class="utility" onclick="clearResult()">AC</button>
+      <button class="utility" onclick="backspace()">⌫</button>
       <button class="utility" onclick="appendValue('%')">%</button>
-      <button class="utility" onclick="appendValue('/')">÷</button>
-      <button class="operator" onclick="appendValue('*')">×</button>
+      <button class="operator" onclick="appendValue('/')">÷</button>
 
       <button class="number" onclick="appendValue('7')">7</button>
       <button class="number" onclick="appendValue('8')">8</button>
       <button class="number" onclick="appendValue('9')">9</button>
-      <button class="operator" onclick="appendValue('-')">−</button>
+      <button class="operator" onclick="appendValue('*')">×</button>
 
       <button class="number" onclick="appendValue('4')">4</button>
       <button class="number" onclick="appendValue('5')">5</button>
       <button class="number" onclick="appendValue('6')">6</button>
-      <button class="operator" onclick="appendValue('+')">+</button>
+      <button class="operator" onclick="appendValue('-')">-</button>
 
       <button class="number" onclick="appendValue('1')">1</button>
       <button class="number" onclick="appendValue('2')">2</button>
       <button class="number" onclick="appendValue('3')">3</button>
-      <button class="operator" onclick="calculate()">=</button>
+      <button class="operator" onclick="appendValue('+')">+</button>
 
       <button class="number zero" onclick="appendValue('0')">0</button>
       <button class="number" onclick="appendValue('.')">.</button>
+      <button class="operator" onclick="calculate()">=</button>
     </div>
   </div>
 
   <script>
     function appendValue(value) {
-      document.getElementById("result").value += value;
+      const res = document.getElementById("result");
+      const lastChar = res.value.slice(-1);
+
+      // Avoid double operators
+      if ("+-*/".includes(value) && "+-*/".includes(lastChar)) {
+        res.value = res.value.slice(0, -1) + value;
+        return;
+      }
+
+      res.value += value;
     }
 
     function clearResult() {
       document.getElementById("result").value = '';
     }
 
+    function backspace() {
+      let res = document.getElementById("result").value;
+      document.getElementById("result").value = res.slice(0, -1);
+    }
+
     function calculate() {
       try {
         let expression = document.getElementById("result").value;
-        document.getElementById("result").value = eval(expression);
+        if (expression) {
+          document.getElementById("result").value = eval(expression);
+        }
       } catch {
         alert("Invalid expression");
       }
