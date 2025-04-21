@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabbir Ahmed - Portfolio</title>
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" href="style copy 2.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #00f7ff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(5px);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00f7ff;
+      margin-bottom: 20px;
+    }
+
+    ul.skills {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    ul.skills li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#top" class="logo-link">
+      <img src="logo.png" alt="My Logo" class="logo" />
+    </a>
+    <h1>Sabbir Ahmed</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Sabbir Ahmed" class="profile-pic" />
+    <p>
+      Hello! I'm <strong>Sabbir Ahmed</strong>, a dedicated <strong>Cybersecurity student</strong> currently studying at <strong>LaGuardia Community College (LaGCC)</strong>.
+      I have hands-on experience with <strong>GitHub</strong>, and I'm skilled in <strong>Python, CSS, HTML</strong>, and <strong>Networking System</strong>.
+    </p>
+    <h3 style="margin-top: 2rem;">Skills:</h3>
+    <ul class="skills">
+      <li>🔐 Cybersecurity & Networking Fundamentals</li>
+      <li>🐍 Python Programming</li>
+      <li>🌐 HTML & CSS</li>
+      <li>🐙 GitHub & Version Control</li>
+    </ul>
+  </section>
+
+   <!-- ======= Projects Section ======= -->
+   <section id="projects" data-aos="zoom-in" data-aos-delay="200">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>🌐 Personal Portfolio Website</h3>
+        <p>A stylish and responsive portfolio built with HTML and CSS.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-item">
+        <h3>🧮 Calculator</h3>
+        <p>A basic calculator built using HTML, CSS, and JavaScript.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-item">
+        <h3>📝 To-Do List App</h3>
+        <p>Simple task manager app with the ability to add/remove items.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <p>&copy; 2025 Ahmed. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+  <section id="contact" data-aos="fade-up" data-aos-delay="400">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu" style="color: #00f7ff;">sabbir.ahmed3@live.lagcc.cuny.edu</a></p>
+  </section>
+
+  <!-- AOS Animation Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
