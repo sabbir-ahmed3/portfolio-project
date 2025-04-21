@@ -140,7 +140,7 @@ footer {
 }
 
 .project-item {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(230, 238, 10, 0.05);
   padding: 1.5rem;
   border-radius: 10px;
   border-left: 4px solid #00f7ff;
@@ -149,4 +149,14 @@ footer {
 
 .project-item:hover {
   transform: scale(1.02);
+}
+.project-item a {
+  color: #f51111;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.project-item a:hover {
+color: #ea1717;
+
 }
