@@ -225,29 +225,113 @@
     </div>
   </section>
 
- <!-- ======= Contact Section ======= -->
-<section id="contact" data-aos="fade-up" data-aos-delay="400" style="text-align: center;">
-  <h2 style="font-size: 2.8rem; margin-bottom: 1rem;">📬 Let's Connect!</h2>
-  <p style="font-size: 1.2rem; margin-bottom: 1.5rem;">
+<!-- ======= Contact Section ======= -->
+<section id="contact" data-aos="fade-up" data-aos-delay="400" style="text-align: center; position: relative; padding: 4rem 1rem;">
+  <div id="particles-js" style="position: absolute; top:0; left:0; width: 100%; height: 100%; z-index: 0;"></div>
+
+  <h2 style="font-size: 2.8rem; margin-bottom: 1rem; position: relative; z-index: 1;">📬 Let's Connect!</h2>
+  <p style="font-size: 1.2rem; margin-bottom: 1.5rem; position: relative; z-index: 1; color: #e0e0e0;">
     Whether you have a question, an idea 💡, or just want to say hi 👋 — my inbox is always open!
   </p>
+
   <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu" 
-     style="display: inline-block; padding: 0.8rem 1.5rem; background-color: #00f7ff; color: #000; border-radius: 30px; text-decoration: none; font-weight: bold; transition: background-color 0.3s;">
-     ✉️ Send an Email
+     class="glow-button" 
+     onmouseover="playSound()">
+    ✉️ Send an Email
   </a>
-  <div style="margin-top: 2rem;">
-    <p style="font-size: 1rem;">🔗 Also check out my GitHub for more magic: 
-      <a href="https://github.com/YOUR_USERNAME" target="_blank" style="color: #00f7ff; font-weight: bold;">https://github.com/sabbir-ahmed3</a>
+
+  <div style="margin-top: 2rem; position: relative; z-index: 1;">
+    <p style="font-size: 1rem; color: #ccc;">🔗 GitHub Magic: 
+      <a href="https://github.com/YOUR_USERNAME" target="_blank" style="color: #66fcf1; font-weight: bold;">https://github.com/sabbir-ahmed3</a>
     </p>
   </div>
+
+  <audio id="hoverSound" src="https://assets.mixkit.co/sfx/preview/mixkit-arcade-retro-changing-tab-206.wav"></audio>
 </section>
 
 <!-- ======= Footer ======= -->
-<footer>
+<footer style="text-align: center; padding: 1rem; color: #999;">
   <p>✨ Made with passion & code by Ahmed. &copy; 2025 All rights reserved. 🚀</p>
 </footer>
 
+<!-- Glow Button Styling -->
+<style>
+  .glow-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #111827; /* soft dark */
+    color: #66fcf1;
+    border: 2px solid #66fcf1;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    box-shadow: 0 0 5px rgba(102, 252, 241, 0.4);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+  }
 
+  .glow-button:hover {
+    background-color: #1f2937;
+    box-shadow: 0 0 15px rgba(102, 252, 241, 0.6), 0 0 20px rgba(102, 252, 241, 0.3);
+    transform: scale(1.05);
+    color: #fff;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+</style>
+
+<!-- Particle.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 40,
+        "density": { "enable": true, "value_area": 800 }
+      },
+      "color": { "value": "#66fcf1" },
+      "shape": {
+        "type": "circle",
+        "stroke": { "width": 0, "color": "#000000" }
+      },
+      "opacity": {
+        "value": 0.3,
+        "random": true
+      },
+      "size": {
+        "value": 3,
+        "random": true
+      },
+      "line_linked": {
+        "enable": false
+      },
+      "move": {
+        "enable": true,
+        "speed": 1,
+        "direction": "none",
+        "out_mode": "out"
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": { "enable": true, "mode": "repulse" }
+      }
+    },
+    "retina_detect": true
+  });
+
+  function playSound() {
+    const sound = document.getElementById("hoverSound");
+    sound.currentTime = 0;
+    sound.play();
+  }
+</script>
   <!-- AOS Animation Scripts -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
