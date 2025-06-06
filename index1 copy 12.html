@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabbir Ahmed - Portfolio</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style copy 10.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo" />
+    </div>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkModeToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="home">
+  <div class="hero-card">
+    <h2>Hello, I'm <span class="highlight">Sabbir Ahmed</span></h2>
+    <p class="tagline">Cybersecurity Enthusiast | Web Developer | Problem Solver</p>
+    <p>
+      I'm passionate about protecting digital infrastructure and crafting responsive, user-friendly web experiences.
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="hero-btn">Let's Connect</a>
+      <a href="#projects" class="hero-btn">Check Out My Work</a>
+      <a href="#skills" class="hero-btn">Explore My Skills</a>
+    </div>
+  </div>
+</section>
+
+<!-- Keep the rest of your content unchanged -->
+<section id="about" class="about-card" data-aos="fade-up">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <img src="profile.jpg" alt="Sabbir Ahmed" class="profile-pic" />
+    <div class="bio-text">
+      <p>
+        Hello! I'm <strong>Sabbir Ahmed</strong>, a dedicated <strong>Cybersecurity student</strong> at 
+        <strong>LaGuardia Community College</strong>. Skilled in <strong>Python, CSS, HTML, Networking, and GitHub</strong>.
+      </p>
+      <h3 style="margin-top: 1.5rem;">Skills:</h3>
+      <ul class="skills" id="skills">
+        <li>🔐 Cybersecurity & Networking Fundamentals</li>
+        <li>🐍 Python Programming</li>
+        <li>🌐 HTML & CSS</li>
+        <li>🐙 GitHub & Version Control</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Showcases my profile, projects, and contact info.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Calculator App</h3>
+      <p>A simple JavaScript calculator project.</p>
+      <a href="calculator.html" target="_blank">Open Calculator</a>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Fetches real-time weather using an API.</p>
+      <a href="#">Check Weather</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu">sabbir.ahmed3@live.lagcc.cuny.edu</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/sabbir-ahmed-35a44b270" target="_blank">sabbir-ahmed-35a44b270</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Sabbir Ahmed. All rights reserved.</p>
+</footer>
+
+<script>
+  const toggleBtn = document.getElementById('darkModeToggle');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

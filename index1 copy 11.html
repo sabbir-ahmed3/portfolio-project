@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabbir Ahmed - Portfolio</title>
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- Custom CSS File -->
+  <link rel="stylesheet" href="style copy 10.css" />
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    header {
+      padding: 1.5rem;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #00f7ff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    #darkModeToggle {
+      background: none;
+      border: 1px solid #64ffda;
+      color: #e61212;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    body.dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    body.dark-mode nav a {
+      color: #ffffff;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(5px);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00f7ff;
+      margin-bottom: 20px;
+    }
+
+    ul.skills {
+      list-style: none;
+      padding: 0;
+      margin-top: 1rem;
+    }
+
+    ul.skills li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .project-card {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 10px;
+      border: 1px solid #00f7ff;
+    }
+
+    .project-card a {
+      color: #00f7ff;
+      text-decoration: underline;
+    }
+
+    #contact a {
+      color: #00f7ff;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .hero-btn {
+      padding: 0.8rem 1.5rem;
+      border: 2px solid #00f7ff;
+      color: #00f7ff;
+      background: transparent;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .hero-btn:hover {
+      background: #00f7ff;
+      color: #000;
+    }
+
+    .highlight {
+      color: #00f7ff;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav-container">
+    <div class="logo"><h1>Sabbir</h1></div>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkModeToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="home">
+  <div class="hero">
+    <h2>Hello, I'm <span class="highlight">Sabbir Ahmed</span></h2>
+    <p class="tagline">Cybersecurity Enthusiast | Web Developer | Problem Solver</p>
+    <p>
+      I'm passionate about protecting digital infrastructure and crafting responsive, user-friendly web experiences.
+      Blending technical expertise with creative thinking, I aim to bridge the gap between security and usability.
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="hero-btn">Let's Connect</a>
+      <a href="#projects" class="hero-btn">Check Out My Work</a>
+      <a href="#skills" class="hero-btn">Explore My Skills</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <img src="profile.jpg" alt="Sabbir Ahmed" class="profile-pic" />
+  <p>
+    Hello! I'm <strong>Sabbir Ahmed</strong>, a dedicated <strong>Cybersecurity student</strong> currently studying at <strong>LaGuardia Community College (LaGCC)</strong>.
+    I have hands-on experience with <strong>GitHub</strong>, and I'm skilled in <strong>Python, CSS, HTML</strong>, and <strong>Networking Systems</strong>.
+  </p>
+  <h3 style="margin-top: 2rem;">Skills:</h3>
+  <ul class="skills" id="skills">
+    <li>🔐 Cybersecurity & Networking Fundamentals</li>
+    <li>🐍 Python Programming</li>
+    <li>🌐 HTML & CSS</li>
+    <li>🐙 GitHub & Version Control</li>
+  </ul>
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Showcases my profile, projects, and contact info.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Calculator App</h3>
+      <p>A simple JavaScript calculator project.</p>
+      <a href="calculator.html" target="_blank">Open Calculator</a>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Fetches real-time weather using an API.</p>
+      <a href="#">Check Weather</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>E-mail: <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu">sabbir.ahmed3@live.lagcc.cuny.edu</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/sabbir-ahmed-35a44b270" target="_blank">sabbir-ahmed-35a44b270</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Sabbir Ahmed. All rights reserved.</p>
+</footer>
+
+<!-- Dark Mode Script -->
+<script>
+  const toggleBtn = document.getElementById('darkModeToggle');
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
+
+<!-- AOS Animation Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

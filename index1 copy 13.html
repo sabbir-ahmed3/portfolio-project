@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sabbir Ahmed - Portfolio</title>
+  <link rel="stylesheet" href="style copy 11.css" />
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!-- Navigation with Dark Mode Toggle -->
+<div class="header-fixed">
+  <div class="logo-container">
+    <a href="#home"><img src="logo.png" alt="Logo" class="logo" /></a>
+  </div>
+
+  <ul class="navbar">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <button id="darkModeToggle" onclick="document.body.classList.toggle('dark-mode')">🌙</button>
+    </li>
+  </ul>
+</div>
+
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="hero-card" data-aos="fade-up">
+      <h2>Hello, I'm <span class="highlight">Sabbir Ahmed</span></h2>
+      <p class="tagline">Cybersecurity Enthusiast | Web Developer | Problem Solver</p>
+      <p>
+        I'm passionate about protecting digital infrastructure and crafting responsive, user-friendly web experiences.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="hero-btn">Let's Connect</a>
+        <a href="#projects" class="hero-btn">Check Out My Work</a>
+        <a href="#about" class="hero-btn">Explore My Skills</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <div class="about-card">
+      <div class="about-content">
+        <img src="profile.jpg" alt="Sabbir Ahmed" class="profile-pic" />
+        <div class="bio-text">
+          <p>
+            Hello! I'm <strong>Sabbir Ahmed</strong>, a dedicated <strong>Cybersecurity student</strong> at <strong>LaGuardia Community College</strong>.
+            Skilled in <strong>Python, CSS, HTML, Networking, and GitHub</strong>.
+          </p>
+          <h3>Skills:</h3>
+          <ul class="skills" id="skills">
+            <li>🔐 Cybersecurity & Networking Fundamentals</li>
+            <li>🐍 Python Programming</li>
+            <li>🌐 HTML & CSS</li>
+            <li>🐙 GitHub & Version Control</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Projects Section -->
+<section id="projects" class="section" data-aos="fade-up">
+  <h2>My Projects</h2>
+  <div class="project-list">
+    
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Showcases my profile, projects, and contact info.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Calculator App</h3>
+      <p>A simple JavaScript calculator project.</p>
+      <a href="calculator.html" target="_blank">Open Calculator</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Fetches real-time weather using an API.</p>
+      <a href="https://www.google.com/search?q=weather" target="_blank">Check Weather</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contact" class="section" data-aos="fade-up">
+  <div class="contact-content">
+    <h2>📬 Let's Connect!</h2>
+    
+    <div class="contact-info">
+      <p>Whether you have a question, an idea💡, or just want to say hi👋 — my inbox is always open!</p>
+      <p>📍New York,NY</p>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com/sabbir-ahmed3" class="social-link" target="_blank" title="GitHub">📂</a>
+      <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu" class="social-link" title="Email">✉️</a>
+    </div>
+
+    <a href="mailto:sabbir.ahmed3@live.lagcc.cuny.edu" class="glow-button" onmouseover="playSound()">
+      ✉️ Send an Email
+    </a>
+
+    <div style="margin-top: 2rem;">
+      <p style="color: #cccccc;">
+        🔗 GitHub Magic: 
+        <a href="https://github.com/sabbir-ahmed3" target="_blank" 
+           style="color: #4da6ff; font-weight: bold; text-decoration: none;">
+          https://github.com/sabbir-ahmed3
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Optional Sound Script -->
+<script>
+  function playSound() {
+    const audio = new Audio('click.mp3'); // Optional: Add a 'click.mp3' file in your project folder
+    audio.play();
+  }
+</script>
+
+ <footer class="site-footer">
+  <p>© 2025 Sabbir Ahmed. All rights reserved.</p>
+</footer>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
