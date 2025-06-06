@@ -42,13 +42,8 @@ added wireframe
 ## Project Wireframe  
 ![CyberNexus Wireframe](wireframe.png.png)
 
-
-<
-
-
-
    <header>
-        <img src="ahmed logo.png" alt="CyberNexus Logo" class="logo" />
+        <img src="logo.png" alt="CyberNexus Logo" class="logo" />
         <h1>Welcome to CyberNexus</h1>
         <p>Cybersecurity | Innovation | Knowledge Sharing</p>
     </header>
